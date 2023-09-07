@@ -25,7 +25,37 @@ Remarks
 		git rm --cached <file_name>
 			to remove from stage
 		Empty folder can't add into git staging directoty
+		
+		git config --edit --global
 
+
+		**************
+			To list the local files
+				git config --local --list
+			To set local user name 			
+				git config --local user.name "Asif"
+			To set local user email
+				git config --local user.email "asif@gmail.com"
+			To set global user name and email
+				git config --global user.name "Asif Globle"
+				git config --global user.email "Asif@gmail.com"
+			To unset the varaible 
+				git config --global --unset user.name
+				git config --global --unset user.email
+				git config --local --unset user.name
+				git config --local --unset user.email
+			To unset unit wise / section
+				git config --local --remove-section user
+				git config --global --remove-section user
+
+			To edit git config file
+				git config -e
+			System Config
+				c/programfile/git/etc/gitconfig	
+			Global Config
+				c/user/username/.gitconfig
+			Local Config
+				.git/config		
 
 	Q . What is git working tree...?
 		The Working Tree is the area where you are currently working.
