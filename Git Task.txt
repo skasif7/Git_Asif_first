@@ -1,0 +1,48 @@
+Date : 7-9-2023
+Task 1	Git
+	
+	1 Install git in local and cloud
+	2 Clone files  from git hub
+	3 Create file and local and send to git hub
+	4 Create different branches and send the file
+	5 Merge into one branch
+	6 Give breif description about your work flow like errors etc
+
+Remarks
+		Warning : warning: in the working copy of 'Atlantics/index.html', LF will be replaced by CRLF the next time Git touches it
+
+		i make one folder(Task) in  that folder(Task) i change to git working place using cmd "git init"
+		later i again make one folder(Atlantics) in that folder i make one file (index.html) file, next step i 
+		used to add files using git cmd "git add ." where Atlantics/index.html (pwd)
+			from directoty where the 
+
+
+
+		R&D
+		
+		Working Dir -> Staging Area -> Local Repository -> Git Hub
+
+		git rm --cached <file_name>
+			to remove from stage
+		Empty folder can't add into git staging directoty
+
+
+	Q . What is git working tree...?
+		The Working Tree is the area where you are currently working.
+		It is where your files live. 
+		This area is also known as the “untracked” area of git
+		Any changes to files will be marked and seen in the Working Tree
+		Here if you make changes and do not explicitly save them to git, 
+		you will lose the changes made to your files.
+		This loss of changes occurs because git is not aware of the files or changes in 
+		the Working Tree until you tell it to pay attention to them.
+
+
+Task 2  Maven
+	
+	1 Install Maven in local and Cloud
+	2 Run Maven Goles
+	3 Run Java Sample program
+	4 Run Jave Web based application
+
+  
